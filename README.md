@@ -4,7 +4,6 @@
 # Features
 
 - Update the Spotify token
-- Set the Spotify token type
 - Get currently playing song data
 - Pause & Play music
 
@@ -12,14 +11,22 @@
 
 In order for this to work, you're going to need to enable 'Allow Http Requests' in your games ssttingd.
 
-First, make a folder in your Roblox project. You will want to place that Base64 script in that folder. You can name the folder whatever.
+First, make a folder in your Roblox project. You can name the folder whatever.
 Then, go inside [Spotify.lua](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/Spotify.lua), and copy the code.
-
 You will then want to make a file in the folder called 'Spotify', and paste the code.
 
 You are now finished, and can use the Spotify API!
 
 # Examples
+## Update access token
+```lua
+local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
+spotify.ClientId = CLIENT_ID -- From Spotify API Dashboard
+spotify.ClientSecret = CLIENT_SECRET -- From Spotify API Dashboard
+spotify.RefreshToken = TOKEN -- Tutorial coming soon!
+spotify:UpdateToken(spotify.RefreshToken)
+print(spotify.AccessToken)
+```
 ## Get currently playing song
 ```lua
 local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
