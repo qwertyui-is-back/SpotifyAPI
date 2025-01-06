@@ -81,17 +81,19 @@ print(song.Album, song.Name, song.Artist, song.Duration, song.DurationMS, song.P
 local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
 print(spotify.IsPlaying) -- true/false
 ```
+## Premium only examples
+### For some reason, Spotify made these APIs premium only.
 ## Toggle song playback (PREMIUM ONLY)
 ```lua
 local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
 spotify:TogglePlayback(true) -- true/false, leave blank to play/pause
 ```
-## Play song
+## Play song (PREMIUM ONLY)
 ```lua
 local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
 spotify:Play("0aB0v4027ukVziUGwVGYpG") -- tv off
 ```
-## Skip song
+## Skip song (PREMIUM ONLY)
 ```lua
 local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
 spotify:SkipCurrent(2) -- Leave blank to skip forward once, positive/negative to go forward or back
