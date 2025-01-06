@@ -8,14 +8,27 @@
 - Pause & Play music
 
 # Instructions
-
+## Installation
 In order for this to work, you're going to need to enable 'Allow Http Requests' in your games ssttingd.
 
 First, make a folder in your Roblox project. You can name the folder whatever.
 Then, go inside [Spotify.lua](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/Spotify.lua), and copy the code.
 You will then want to make a file in the folder called 'Spotify', and paste the code.
 
-You are now finished, and can use the Spotify API!
+Now, you will want to make a folder on your desktop, and ame it whaterver.
+Then, download [API.py](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/API.py), and move the file to the folder you made.
+
+Make sure you have [Python](https://python.org) installed.
+Open `cmd` in the folder, and run:
+```py
+pip install flask
+```
+Once finished, run:
+```py
+python API.py
+```
+This API will allow you to update your access token easily.
+## Setup
 
 # Examples
 ## Update access token
