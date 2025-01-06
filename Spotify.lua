@@ -6,7 +6,7 @@ local spotify = {
 	ClientSecret = ""
 }
 
---[[ LOGIC  ]]--
+--[[ LOGIC ]]--
 
 local httpService = game:GetService("HttpService")
 local base64 = {
@@ -237,7 +237,7 @@ function spotify:Play(songId: string): ()
 	elseif data.StatusCode == 403 then
 		error("premium account expected, got free account")
 	else
-		error("Error chaning song "..httpService:JSONDecode(data.Body).error.message)
+		error("Error changing song "..httpService:JSONDecode(data.Body).error.message)
 	end
 end
 
