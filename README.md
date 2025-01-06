@@ -38,7 +38,7 @@ print(song.Album, song.Name, song.Artist, song.Duration, song.DurationMS, song.P
 local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
 print(spotify.IsPlaying) -- true/false
 ```
-## Toggle song playback
+## Toggle song playback (PREMIUM ONLY)
 ```lua
 local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
 spotify:TogglePlayback(true) -- true/false, leave blank to play/pause
