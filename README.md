@@ -12,19 +12,12 @@
 
 In order for this to work, you're going to need to enable 'Allow Http Requests' in your games ssttingd.
 
-First, you're going to need a Base64 library. I recommend [this library by Gooncreeper](https://devforum.roblox.com/t/insanely-fast-base64-module/2039488).
-Make sure that your library has these main functions:
-- b64.encode
-- b64.decode
-
-If your library doesn't have these functions, it will not work.
-
-Next, make a folder in your Roblox project. You will want to place that Base64 script in that folder. You can name the folder whatever.
+First, make a folder in your Roblox project. You will want to place that Base64 script in that folder. You can name the folder whatever.
 Then, go inside [Spotify.lua](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/Spotify.lua), and copy the code.
 
 You will then want to make a file in the folder called 'Spotify', and paste the code.
 
-You are now finished, and can use the Spotify API
+You are now finished, and can use the Spotify API!
 
 # Examples
 ## Get currently playing song
