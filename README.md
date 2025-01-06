@@ -9,7 +9,7 @@
 
 # Instructions
 ## Installation
-In order for this to work, you're going to need to enable 'Allow Http Requests' in your games ssttingd.
+In order for this to work, you're going to need to enable 'Allow Http Requests' in your game settings.
 
 First, make a folder in your Roblox project, in either ReplicatedStorage or ServerStorage. You can name the folder whatever.
 Then, go inside [Spotify.lua](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/Spotify.lua), and copy the code.
@@ -97,4 +97,4 @@ local spotify = require(game:GetService("ReplicatedStorage").Folder.Spotify)
 spotify:SkipCurrent(2) -- Leave blank to skip forward once, positive/negative to go forward or back
 ```
 # Credits
-Spotify.lua: @qwertyui-is-back
+Spotify.lua: @qwertyui-is-back, @MaxlaserTech
