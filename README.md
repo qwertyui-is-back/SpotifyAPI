@@ -10,7 +10,7 @@
 
 # Instructions
 
-In order for this to work, you're going to need to enable 'Http requests' in your games ssttingd.
+In order for this to work, you're going to need to enable 'Allow Http Requests' in your games ssttingd.
 
 First, you're going to need a Base64 library. I recommend [this library by Gooncreeper](https://devforum.roblox.com/t/insanely-fast-base64-module/2039488).
 Make sure that your library has these main functions:
