@@ -1,6 +1,6 @@
 local spotify = {
 	IsPlaying = false,
-	AccessToken = "BQCGkQkhc4Hct12Hb4N9vE_6i4jlQoQrD77lNUoOaaF4_6-ctwwzFsVBwgUajYfoOrmsV8z-PQLNOIA79LBV6bjxzbdv2gSrRxJMVa8FyUxbFcc4QMzo67DfY2AV2BtHWE2bFzvJICiu_mv8lxY1lPXYRzZ6pZZ-YR3WZaSmQNa3pwbCgZQOB81hyQB93YimHkpm6umuvFfHzpdTybHMZ1k8IvPqK_DNASE",
+	AccessToken = "",
 	RefreshToken = "",
 	ClientId = "",
 	ClientSecret = ""
