@@ -15,11 +15,11 @@ First, make a folder in your Roblox project, in either ReplicatedStorage or Serv
 Then, go inside [Spotify.lua](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/Spotify.lua), and copy the code.
 You will then want to make a file in the folder called 'Spotify', and paste the code.
 
-Now, you will want to make a folder on your desktop, and ame it whaterver.
+Now, you will want to make a folder on your desktop, and name it whaterver.
 Then, download [API.py](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/API.py), and move the file to the folder you made.
 
 Make sure you have [Python](https://python.org) installed.
-Open `cmd` in the folder, and run:
+Open `cmd` in the folder (click the bar on top and and type 'cmd' and enter), and run:
 ```py
 pip install flask
 ```
