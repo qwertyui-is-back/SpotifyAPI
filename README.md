@@ -18,7 +18,7 @@ You will then want to make a file in the folder called 'Spotify', and paste the 
 Now, you will want to make a folder on your desktop, and name it whaterver.
 Then, download [API.py](https://github.com/qwertyui-is-back/SpotifyAPI/blob/main/API.py), and move the file to the folder you made.
 
-Make sure you have [Python](https://python.org) installed.
+Make sure you have [Python](https://www.python.org/downloads/release/python-3131) installed.
 Open `cmd` in the folder (click the bar on top and and type 'cmd' and enter), and run:
 ```py
 pip install flask
