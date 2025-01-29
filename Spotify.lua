@@ -3,7 +3,8 @@ local spotify = {
 	AccessToken = "",
 	RefreshToken = "",
 	ClientId = "",
-	ClientSecret = ""
+	ClientSecret = "",
+	RedirectUri = "http://localhost:80/callback"
 }
 
 --[[ LOGIC ]]--
@@ -76,7 +77,7 @@ local function request(url, method)
 		Url = "https://api.spotify.com/v1/"..url,
 		Method = method or "GET",
 		Headers = heads,
-		Body = USEBODY and "" or nil
+		Body = USEBODY and "a" or nil
 	})
 	return data
 end
@@ -89,6 +90,7 @@ Gets the authorization url for the user to login to their account.
 Returns a string of the url.
 ]]
 function spotify:GenerateURL(scopes: {string}): string
+	scopes = scopes or {"user-read-private", "user-read-email", "user-read-playback-state", "user-modify-playback-state"}
 	return `https://accounts.spotify.com/authorize?client_id={spotify.ClientId}&response_type=code&scope={table.concat(scopes, "%20")}&redirect_uri={spotify.RedirectUri:gsub(":", "%%3A")}`
 end
 
